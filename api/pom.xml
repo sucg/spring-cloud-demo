@@ -13,15 +13,15 @@
 
     <parent>
         <groupId>com.sucg</groupId>
-        <artifactId>spring-cloud-example</artifactId>
+        <artifactId>spring-cloud-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-    </properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>1.8</java.version>
+</properties>
 
     <dependencies>
         <dependency>
@@ -33,16 +33,14 @@
             <artifactId>spring-cloud-starter-sleuth</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.sucg</groupId>
-            <artifactId>spring-cloud-example</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-sleuth-zipkin</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.sucg</groupId>
+            <artifactId>spring-cloud-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

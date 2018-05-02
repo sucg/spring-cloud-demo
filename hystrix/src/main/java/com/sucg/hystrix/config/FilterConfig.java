@@ -1,6 +1,6 @@
 package com.sucg.hystrix.config;
 
-import com.sucg.springclouddemo.filter.StartApplicationFilter;
+import com.sucg.filter.StartApplicationFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

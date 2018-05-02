@@ -13,7 +13,7 @@
 
     <parent>
         <groupId>com.sucg</groupId>
-        <artifactId>spring-cloud-example</artifactId>
+        <artifactId>spring-cloud-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 

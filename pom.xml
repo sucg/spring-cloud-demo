@@ -4,27 +4,27 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sucg</groupId>
-    <artifactId>spring-cloud-example</artifactId>
+    <artifactId>spring-cloud-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>eureka-client</name>
     <description>Demo project for Spring Boot</description>
 
-<modules>
-    <module>eureka-server</module>
-    <module>api</module>
-    <module>ribbon</module>
-    <module>feign</module>
-    <module>hystrix</module>
-    <module>turbine</module>
-    <module>dashboard</module>
-    <module>gateway</module>
-    <module>zipkin</module>
-    <module>admin</module>
-    <module>auth</module>
-
-</modules>
+    <modules>
+        <module>common</module>
+        <module>eureka-server</module>
+        <module>api</module>
+        <module>ribbon</module>
+        <module>feign</module>
+        <module>hystrix</module>
+        <module>turbine</module>
+        <module>dashboard</module>
+        <module>auth</module>
+        <module>gateway</module>
+        <module>zipkin</module>
+        <module>admin</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -81,53 +81,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
-    <repositories>
-        <repository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/snapshot</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/snapshot</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-        <pluginRepository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
-
 
 </project>

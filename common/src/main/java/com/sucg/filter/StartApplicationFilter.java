@@ -1,5 +1,4 @@
-package com.sucg.springclouddemo.filter;
-
+package com.sucg.filter;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
