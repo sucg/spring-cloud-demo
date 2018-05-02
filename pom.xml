@@ -6,10 +6,25 @@
     <groupId>com.sucg</groupId>
     <artifactId>spring-cloud-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>eureka-client</name>
     <description>Demo project for Spring Boot</description>
+
+<modules>
+    <module>eureka-server</module>
+    <module>api</module>
+    <module>ribbon</module>
+    <module>feign</module>
+    <module>hystrix</module>
+    <module>turbine</module>
+    <module>dashboard</module>
+    <module>gateway</module>
+    <module>zipkin</module>
+    <module>admin</module>
+
+
+</modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
