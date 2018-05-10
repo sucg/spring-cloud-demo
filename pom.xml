@@ -20,10 +20,13 @@
         <module>hystrix</module>
         <module>turbine</module>
         <module>dashboard</module>
-        <module>auth</module>
         <module>gateway</module>
         <module>zipkin</module>
         <module>admin</module>
+        <module>auth-server</module>
+        <module>zk</module>
+        <module>consul</module>
+        <module>config-server</module>
     </modules>
 
     <parent>
